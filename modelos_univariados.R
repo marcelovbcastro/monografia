@@ -7,7 +7,7 @@ library(readxl)
 library(rucm)
 
 # Carregando os dados
-dados <- read_excel("C:/Users/mvboa/OneDrive/Área de Trabalho/TCC/Dados/Base de dados.xlsx", sheet = "Dados")
+dados <- read_excel("Base de dados.xlsx", sheet = "Dados")
 pibd <- ts(dados["ln(pibd)"], start = c(1996, 1), end = c(2023,3) , frequency = 4)
 
 # Tendência Linear
