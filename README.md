@@ -2,7 +2,8 @@
 
 O objetivo de trabalho é comparar diversos métodos para estimação do hiato do produto, avaliando-os pela capacidade de prever a inflação quando aplicados a curva de Phillips
 
-##Métodos de Estimação do Hiato do Produto:
+## Métodos de Estimação do Hiato do Produto:
+
 Univariados
 
 1. Tendência Linear___________________________________(estimado)
