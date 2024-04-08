@@ -68,7 +68,7 @@ names(nou.resultado) <- c("nou.tendencia", "nou.hiato")
 modelos_univariados = data.frame(dados["Data"], dados["ln(pibd)"], lin.resultado, qua.resultado,
                                  hp.resultado, bp.resultado, cf.resultado,
                                  bn.resultado, nou.resultado)
-write.csv(modelos_univariados, file = "modelos_univariado.csv")
+write.csv(resultado_univariados, file = "modelos_univariado.csv")
 
 
 
